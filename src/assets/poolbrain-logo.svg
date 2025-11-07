@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <defs>
+    <linearGradient id="cyanGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00ffcc;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Minimalist icon: Pool with AI signal -->
+  <g transform="translate(20, 30)">
+    <!-- Outer pool circle -->
+    <circle cx="0" cy="0" r="12" fill="none" stroke="#00d4ff" stroke-width="2" opacity="0.3"/>
+    <circle cx="0" cy="0" r="8" fill="none" stroke="#00d4ff" stroke-width="2" opacity="0.5"/>
+    
+    <!-- Central AI pulse/brain -->
+    <circle cx="0" cy="0" r="4" fill="url(#cyanGradient)" opacity="0.8"/>
+    
+    <!-- Signal waves -->
+    <path d="M 0,-8 Q 6,-6 8,0" fill="none" stroke="#00d4ff" stroke-width="1.5" opacity="0.6"/>
+    <path d="M 8,0 Q 6,6 0,8" fill="none" stroke="#00d4ff" stroke-width="1.5" opacity="0.6"/>
+    <path d="M 0,8 Q -6,6 -8,0" fill="none" stroke="#00d4ff" stroke-width="1.5" opacity="0.6"/>
+    <path d="M -8,0 Q -6,-6 0,-8" fill="none" stroke="#00d4ff" stroke-width="1.5" opacity="0.6"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="50" y="37" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="300" fill="#ffffff" letter-spacing="0.5">
+    Pool<tspan font-weight="600" fill="#00d4ff">Brain</tspan><tspan font-size="16" fill="#6ec4db">.ai</tspan>
+  </text>
+</svg>
